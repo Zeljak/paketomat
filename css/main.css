@@ -11880,7 +11880,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .rectangle__wrapper .rectangle__black {
   background-color: #1c1c19;
   background: url(../_assets/images/paket24_transparent_logo.png) no-repeat 17%/60%, #1c1c19;
-  width: 100%;
   height: 100%;
   margin-bottom: 15px;
 }
