@@ -11883,21 +11883,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 100%;
   margin-bottom: 15px;
 }
-@media (max-width: 767px) {
-  .rectangle__wrapper {
-    height: 100px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .rectangle__wrapper {
-    height: 170px;
-  }
-}
-@media (min-width: 1025px) {
-  .rectangle__wrapper {
-    height: 308px;
-  }
-}
 .rectangle__wrapper .rectangle__yellow {
   background-color: #ffbf32;
   background: url(../_assets/images/paket24_transparent_logo.png) no-repeat 17%/60%, #ffbf32;
@@ -11906,17 +11891,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin-bottom: 15px;
 }
 @media (max-width: 767px) {
-  .rectangle__wrapper {
+  .rectangle__wrapper .rectangle__black,
+.rectangle__wrapper .rectangle__yellow {
     height: 100px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .rectangle__wrapper {
+  .rectangle__wrapper .rectangle__black,
+.rectangle__wrapper .rectangle__yellow {
     height: 170px;
   }
 }
 @media (min-width: 1025px) {
-  .rectangle__wrapper {
+  .rectangle__wrapper .rectangle__black,
+.rectangle__wrapper .rectangle__yellow {
     height: 308px;
   }
 }

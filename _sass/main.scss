@@ -333,16 +333,7 @@
     margin-bottom: 15px;
   }
 
-  @include for-phone {
-    height: 100px;
-  }
-
-  @include for-tablet {
-    height: 170px;
-  }
-  @include for-desktop {
-    height: 308px;
-  }
+  
 
   .rectangle__yellow {
     background-color: $cheese;
@@ -354,15 +345,18 @@
     margin-bottom: 15px;
   }
 
-  @include for-phone {
-    height: 100px;
-  }
-
-  @include for-tablet {
-    height: 170px;
-  }
-  @include for-desktop {
-    height: 308px;
+  .rectangle__black,
+  .rectangle__yellow {
+    @include for-phone {
+      height: 100px;
+    }
+  
+    @include for-tablet {
+      height: 170px;
+    }
+    @include for-desktop {
+      height: 308px;
+    }
   }
 
   .yellow,
