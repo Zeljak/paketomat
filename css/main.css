@@ -12710,10 +12710,14 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (min-width: 1025px) {
+.gallery__wrapper .swiperGall .swiperGall-prev,
+.gallery__wrapper .swiperGall .swiperGall-next {
+  display: none;
+}
+@media (max-width: 767px) {
   .gallery__wrapper .swiperGall .swiperGall-prev,
 .gallery__wrapper .swiperGall .swiperGall-next {
-    display: none;
+    display: block;
   }
 }
 

@@ -329,10 +329,14 @@
 }
 
 .gallery__wrapper .swiperGall {
-  @include for-desktop {
+  .swiperGall-prev,
+  .swiperGall-next {
+    display: none;
+  }
+  @include for-phone {
     .swiperGall-prev,
     .swiperGall-next {
-      display: none;
+      display: block;
     }
   }
 }
