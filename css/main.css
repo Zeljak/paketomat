@@ -12246,6 +12246,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+@media (max-width: 767px) {
+  .gallery__grid {
+    row-gap: 0;
+    -webkit-column-gap: 6px;
+       -moz-column-gap: 6px;
+            column-gap: 6px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .gallery__grid {
     row-gap: 0;

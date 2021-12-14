@@ -626,6 +626,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
+  @include for-phone {
+    row-gap: 0;
+    column-gap: 6px;
+  }
   @include for-tablet {
     row-gap: 0;
     column-gap: 7px;
@@ -730,7 +734,7 @@
     }
   }
 }
-
+// lightbox icons
 .lb-data .lb-close {
   display: block;
   float: right;
