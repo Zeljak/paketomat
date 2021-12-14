@@ -276,7 +276,8 @@
     column-gap: 6px;
 
     @include for-phone {
-      gap: 0 3px;
+      row-gap: 0px;
+      column-gap: 5px;
     }
   }
 
@@ -287,6 +288,7 @@
   .card {
     @include for-phone {
       padding: 10px;
+      padding-top: 15px;
     }
     @include for-desktop {
       padding-top: 60px;

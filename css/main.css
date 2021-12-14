@@ -11805,7 +11805,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 @media (max-width: 767px) {
   .card__photos .card__grid {
-    gap: 0 3px;
+    row-gap: 0px;
+    -webkit-column-gap: 5px;
+       -moz-column-gap: 5px;
+            column-gap: 5px;
   }
 }
 .card__photos .card_photos {
@@ -11815,6 +11818,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 @media (max-width: 767px) {
   .card__photos .card {
     padding: 10px;
+    padding-top: 15px;
   }
 }
 @media (min-width: 1025px) {
