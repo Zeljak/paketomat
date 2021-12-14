@@ -330,7 +330,8 @@
 
 .gallery__wrapper .swiperGall {
   @include for-desktop {
-    .swiperGall-prev, .swiperGall-next {
+    .swiperGall-prev,
+    .swiperGall-next {
       display: none;
     }
   }
@@ -785,4 +786,15 @@
   -moz-transition: opacity 0.6s;
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s;
+}
+
+.swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
+  color: $cheese;
+}
+
+:root {
+  --swiper-navigation-size: 60px;
+  /* --swiper-navigation-color: var(--swiper-theme-color); */
 }

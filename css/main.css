@@ -12711,7 +12711,8 @@ button.swiper-pagination-bullet {
 }
 
 @media (min-width: 1025px) {
-  .gallery__wrapper .swiperGall .swiperGall-prev, .gallery__wrapper .swiperGall .swiperGall-next {
+  .gallery__wrapper .swiperGall .swiperGall-prev,
+.gallery__wrapper .swiperGall .swiperGall-next {
     display: none;
   }
 }
@@ -13256,4 +13257,15 @@ button.swiper-pagination-bullet {
   opacity: 0;
   -webkit-transition: opacity 0.6s;
   transition: opacity 0.6s;
+}
+
+.swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
+  color: #ffbf32;
+}
+
+:root {
+  --swiper-navigation-size: 60px;
+  /* --swiper-navigation-color: var(--swiper-theme-color); */
 }
