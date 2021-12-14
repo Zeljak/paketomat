@@ -796,6 +796,12 @@
 .swiper-rtl,
 .swiper-button-prev {
   color: $cheese;
+  @include for-desktop {
+    display: none;
+  }
+  @include for-tablet {
+    display: none;
+  }
 }
 
 :root {
