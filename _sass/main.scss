@@ -6,6 +6,8 @@
 
 @import "../node_modules/bulma/bulma";
 
+@import "../node_modules/swiper/swiper-bundle";
+
 //GENERAL
 * {
   margin: 0;
@@ -322,6 +324,14 @@
     gap: 2px;
     @include for-ultrahd {
       gap: 58px;
+    }
+  }
+}
+
+.gallery__wrapper .swiperGall {
+  @include for-desktop {
+    .swiperGall-prev, .swiperGall-next {
+      display: none;
     }
   }
 }
