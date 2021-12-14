@@ -13264,6 +13264,20 @@ button.swiper-pagination-bullet {
 .swiper-button-prev {
   color: #ffbf32;
 }
+@media (min-width: 1025px) {
+  .swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
+    display: none;
+  }
+}
 
 :root {
   --swiper-navigation-size: 60px;
