@@ -12126,6 +12126,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   .pet__stvari h3 {
     font-size: 54px;
     line-height: 61px;
+    margin-top: 40px;
   }
 }
 
@@ -12330,7 +12331,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 @media (max-width: 767px) {
   .yellow_div__wrapper span {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -12358,20 +12359,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 767px) {
-  .footer {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
 .footer p {
   font-family: "Bebas Neue", cursive;
   color: #000;
-  text-transform: unset;
 }
 @media (max-width: 767px) {
   .footer p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
   }
 }

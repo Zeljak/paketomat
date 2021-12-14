@@ -530,6 +530,7 @@
     @include for-desktop {
       font-size: 54px;
       line-height: 61px;
+      margin-top: 40px;
     }
   }
 }
@@ -688,7 +689,7 @@
   span {
     @include for-phone {
       font-size: 20px;
-      line-height: 30px;
+      line-height: 20px;
     }
     @include for-tablet {
       font-size: 22px;
@@ -708,15 +709,15 @@
   justify-content: space-evenly;
   align-items: center;
   @include for-phone {
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
 
   p {
     font-family: $family-primary;
     color: #000;
-    text-transform: unset;
+
     @include for-phone {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 16px;
     }
     @include for-tablet {
