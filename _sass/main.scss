@@ -266,6 +266,9 @@
       margin-top: 40px;
       margin-bottom: 40px;
     }
+    &:hover {
+      color: $cheese;
+    }
   }
 }
 
@@ -326,6 +329,25 @@
     @include for-ultrahd {
       gap: 58px;
     }
+  }
+}
+
+.rectangle__wrapper,
+.savjeti,
+.pet__stvari,
+.ikone__grid,
+.hr_wrapper,
+.gallery__wrapper,
+.yellow_div__wrapper,
+.hr_wrapper {
+  @include for-phone {
+    margin: 30px 8px 30px;
+  }
+  @include for-tablet {
+    margin: 40px 30px 40px;
+  }
+  @include for-desktop {
+    margin: 70px 70px 30px;
   }
 }
 

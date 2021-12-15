@@ -12568,6 +12568,9 @@ button.swiper-pagination-bullet {
     margin-bottom: 40px;
   }
 }
+.main__section .steps__title:hover {
+  color: #ffbf32;
+}
 
 /* Grid with photos*/
 .card__photos .card__grid {
@@ -12712,6 +12715,43 @@ button.swiper-pagination-bullet {
 .gallery__wrapper .four__photos,
 .yellow_div__wrapper .four__photos {
     gap: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rectangle__wrapper,
+.savjeti,
+.pet__stvari,
+.ikone__grid,
+.hr_wrapper,
+.gallery__wrapper,
+.yellow_div__wrapper,
+.hr_wrapper {
+    margin: 30px 8px 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .rectangle__wrapper,
+.savjeti,
+.pet__stvari,
+.ikone__grid,
+.hr_wrapper,
+.gallery__wrapper,
+.yellow_div__wrapper,
+.hr_wrapper {
+    margin: 40px 30px 40px;
+  }
+}
+@media (min-width: 1025px) {
+  .rectangle__wrapper,
+.savjeti,
+.pet__stvari,
+.ikone__grid,
+.hr_wrapper,
+.gallery__wrapper,
+.yellow_div__wrapper,
+.hr_wrapper {
+    margin: 70px 70px 30px;
   }
 }
 
