@@ -12396,6 +12396,11 @@ button.swiper-pagination-bullet {
   background-attachment: fixed;
   height: 100%;
 }
+@media (max-width: 767px) {
+  .main__section {
+    background-color: #ffd400;
+  }
+}
 .main__section .main__wrapper {
   width: 70%;
   background-color: #fff;

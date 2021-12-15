@@ -110,6 +110,7 @@
   background-attachment: fixed;
   height: 100%;
   @include for-phone {
+    background-color: $sunflower;
   }
   @include for-tablet {
   }
