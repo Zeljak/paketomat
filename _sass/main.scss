@@ -19,7 +19,8 @@
 
 // HEADER
 .header__banner {
-  background: url(../_assets/images/paketomat_header.png) no-repeat center/cover;
+  // background: url(../_assets/images/paketomat_header.png) no-repeat center/cover;
+  background: url(../_assets/images/novi_header.jpg) no-repeat center/cover;
   height: 65.47vw;
   margin-bottom: 50px;
 
@@ -498,6 +499,57 @@
       color: #000;
       border-color: $sunflower;
     }
+  }
+}
+
+// New section
+.rectangle__wrapper--new {
+  margin: 70px 30px;
+
+  @include for-tablet {
+    margin: initial;
+    margin-top: 50px;
+  }
+
+  @include for-phone {
+    margin: initial;
+    margin-top: 30px;
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+.rectangle__yellow--new, .rectangle__black--new {
+  height: initial !important;
+  padding-bottom: 40px;
+}
+
+.yellow--new, .black--new {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 40px 0 20px !important;
+}
+
+.elena {
+  height: auto;
+  width: 100%;
+}
+
+.card--2nd {
+  margin: 70px 70px 30px !important;
+
+  @include for-tablet {
+    margin: 40px 30px 40px !important;
+  }
+
+  @include for-phone {
+    margin: 30px 8px 30px !important;
   }
 }
 
